@@ -1,12 +1,12 @@
  # Github 어떻게 쓰는지 공부하는중 ...  
  ### 1. local 과 remote 연결  
- 깃허브 페이지에서 repositories 를 만든 후 저장소 주소 뒤에 .git을 붙여준다 .   
+ 깃허브 페이지에서 repositories 를 만든 후 저장소 주소 뒤에 .git을 붙여준다 .  
  즉 https://github.com/아이디/저장소이름.git  
 
 ``` 
 git remote add origin [원격저장소 주소]
 ```
-만약 잘못 연결했다면 다음 명령어를 통해 삭제 가능하다.   
+만약 잘못 연결했다면 다음 명령어를 통해 삭제 가능하다.  
 ```
 git remote rm origin
 ```
@@ -59,7 +59,7 @@ git push -u main // main에 푸시합니다.
 ```  
 
 4. 다음부터는...  
-```
+``` 
 git pull origin main
 git add . 
 git commit -m "commit message "
